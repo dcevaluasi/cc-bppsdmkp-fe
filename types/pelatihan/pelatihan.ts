@@ -1,0 +1,43 @@
+export type UserPelatihan = {
+  [key: string]: string | number | null | undefined
+  CreatedAt: string
+  CreteAt: string
+  IdUserPelatihan: number
+  IdPelatihan: number
+  FileSertifikat: string
+  BuktiBayar: string
+  IdUsers: number
+  IsActice: string
+  PenyelenggaraPelatihan: string
+  TanggalMulai: string
+  TanggalBerakhir: string
+  PendidikanTerakhir: string
+  IsKeterangan: string
+  MetodoPembayaran: string
+  NilaiPraktek: number
+  NilaiTeory: number
+  NoRegistrasi: string
+  NoSertifikat: string
+  TanggalSertifikat: string
+  PostTest: number
+  PreTest: number
+  JenisKelamin: string
+  StatusPembayaran: string
+  UpdateAt: string
+  WaktuPembayaran: string
+  NamaPelatihan: string
+  DetailPelatihan: string
+  BidangPelatihan: string
+  JenisPelatihan: string
+  Keterangan: string
+  Nama: string
+  TotalBayar: string
+  CodeAksess: string
+  Provinsi: string
+  TempatTanggalLahir: string
+  JenisProgram: string
+  StatusAproval: string
+  Program: string
+  DukunganProgramPrioritas: string
+  StatusPenandatangan: string
+}
